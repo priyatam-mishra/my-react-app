@@ -2,15 +2,34 @@ const Home = () => {
     return<>
     <div className="container">
     <div className="row">
-        <div className="col-lg">
-        <i className="fa fa-home ss"></i>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse quae aut eum reprehenderit minus sit qui odio porro in illo, tempora iure inventore molestias omnis beatae veniam quidem. Rem.</div>
-        <div className="col-lg">
-        <i className="fa fa-home ss"></i>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse quae aut eum reprehenderit minus sit qui odio porro in illo, tempora iure inventore molestias omnis beatae veniam quidem. Rem.</div>
-        <div className="col-lg">
-        <i className="fa fa-home ss"></i>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio esse quae aut eum reprehenderit minus sit qui odio porro in illo, tempora iure inventore molestias omnis beatae veniam quidem. Rem.</div>
+        <div className="col-lg-3">
+          <h4>web Design</h4>
+          <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod delectus, earum cumque aliquam cum veritatis atque commodi non vitae officia iure nemo nam, fugit praesentium. Eum laudantium modi repellat.
+          </p>
+        </div>
+        <div className="col-lg-3">
+          <h4>
+            Search Optimization
+          </h4>
+          <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod delectus, earum cumque aliquam cum veritatis atque commodi non vitae officia iure nemo nam, fugit praesentium. Eum laudantium modi repellat.
+          </p>
+        </div>
+        <div className="col-lg-3">
+          <h4>
+            Online Shop
+          </h4>
+          <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod delectus, earum cumque aliquam cum veritatis atque commodi non vitae officia iure nemo nam, fugit praesentium. Eum laudantium modi repellat.
+          </p>
+        </div>
+        <div className="col-lg-3">
+          <h4> Social Media </h4>
+          <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis quod delectus, earum cumque aliquam cum veritatis atque commodi non vitae officia iure nemo nam, fugit praesentium. Eum laudantium modi repellat.
+          </p>
+        </div>
     </div>
 </div>
     </>;

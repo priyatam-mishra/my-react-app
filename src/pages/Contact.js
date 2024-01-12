@@ -1,8 +1,8 @@
 const Contact = () => {
     return <>
-    <div class="container">
-    <div class="row">
-        <div class="col-lg m2">
+    <div className="container">
+               <div className="row m1">
+        <div className="col-lg m2">
           welcome to code
            </div>
     </div>

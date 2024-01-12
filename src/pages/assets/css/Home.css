@@ -1,3 +1,7 @@
+.m1 {
+    perspective: 200px;
+}
+
 .m2 {
     --w: 500px;
     width: var(--w);
@@ -10,36 +14,112 @@
     border-radius: 40px;
     text-align: center;
     font-size: 30px;
+    transition: all ease .6s;
+}
+
+.hp1 {
+    margin-top: 10%;
+    transition: all ease .6s;
+}
+
+
+.hp2 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    border: 2.5px solid gray;
+    box-shadow: 0 0 10px 5px gray;
+}
+
+.hp2:hover {
+    animation: ra 3s infinite linear;
+    border: 2.5px solid #010101;
 }
 
 .m2:hover {
     animation: re 2s infinite linear;
+    transform: rotateX(5deg);
+}
+
+.h1 {
+    font-size: 50vh;
+    background: url(../image/pexels-life-of-pix-7919.jpg);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    background-position: center;
+    animation: im1 9s infinite linear;
+    text-align: center;
+    font-family: fantasy;
+    transition: all ease .6s;
+    font-size: 900;
+}
+
+.ss {
+    margin: 20px;
+    color: #174ab1;
 }
 
 @keyframes re {
     0% {
-        box-shadow: 20px 20px 18px #0b0bb8ad;
+        box-shadow: 10px 10px 9px #0b0bb8ad;
     }
 
     25% {
-        box-shadow: 20px -20px 18px #e40808c2;
-
+        box-shadow: 10px -10px 9px #e40808c2;
     }
 
     50% {
-        box-shadow: -20px -20px 18px #dbc71199;
+        box-shadow: -10px -10px 9px #dbc71199;
     }
 
     75% {
-        box-shadow: -20px 20px 18px #1cb51492;
+        box-shadow: -10px 10px 9px #1cb51492;
     }
 
     100% {
-        box-shadow: 20px 20px 18px #0ce2d08b;
+        box-shadow: 10px 10px 9px #0ce2d08b;
     }
 }
 
 .ss {
     margin: 20px;
     color: #174ab1;
+}
+
+@keyframes ra {
+    0% {
+        box-shadow: 0 0 10px 5px #0b0bb8ad;
+    }
+
+    25% {
+        box-shadow: 0 0 10px 5px #e40808c2;
+    }
+
+    50% {
+        box-shadow: 0 0 10px 5px #dbc71199;
+    }
+
+    75% {
+        box-shadow: 0 0 10px 5px #1cb51492;
+    }
+
+    100% {
+        box-shadow: 0 0 10px 5px #0ce2d08b;
+    }
+}
+
+@keyframes im1 {
+    from {
+        background-position: 0% 80%;
+    }
+
+    to {
+        background: url(../image/pexels-james-wheeler-1519088.jpg);
+        background-size: cover;
+        color: transparent;
+        background-clip: text;
+        background-position: 100% 50%;
+    }
 }

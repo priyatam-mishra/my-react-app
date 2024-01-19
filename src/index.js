@@ -9,7 +9,10 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/Nopage";
-import"./pages/assets/css/Home.css";
+import "./pages/assets/css/Home.css";
+import Fromtext from './pages/Fromtext';
+
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -17,6 +20,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
+          <Route path="Fromtext" element={<Fromtext />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>

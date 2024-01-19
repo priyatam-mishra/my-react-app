@@ -1,5 +1,45 @@
+:root {
+    --fs: 15px;
+    user-select: none;
+}
+
 .m1 {
     perspective: 200px;
+}
+
+.container {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* 
+.hp2:hover .sm {
+    animation: ra 3s infinite linear;
+} */
+
+.vv {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px #010101b6;
+    background: whitesmoke;
+}
+
+.col-lg-12 input {
+    margin: auto;
+}
+
+.vv:hover {
+    animation: ra 3s infinite linear;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .m2 {
@@ -28,8 +68,8 @@
     margin: 10px;
     border-radius: 20px;
     padding-top: 10px;
-    border: 2.5px solid gray;
-    box-shadow: 0 0 10px 5px gray;
+    box-shadow: 0 0 5px 2px gray;
+    background: whitesmoke;
 }
 
 .hp2:hover {
@@ -90,23 +130,23 @@
 
 @keyframes ra {
     0% {
-        box-shadow: 0 0 10px 5px #0b0bb8ad;
+        box-shadow: 0 0 10px 5px #0b0bb8ad, inset 0 0 1px 1px #0b0bb8d3;
     }
 
     25% {
-        box-shadow: 0 0 10px 5px #e40808c2;
+        box-shadow: 0 0 10px 5px #e40808d1;
     }
 
     50% {
-        box-shadow: 0 0 10px 5px #dbc71199;
+        box-shadow: 0 0 10px 5px #dbc711ca;
     }
 
     75% {
-        box-shadow: 0 0 10px 5px #1cb51492;
+        box-shadow: 0 0 10px 5px #1cb514d0;
     }
 
     100% {
-        box-shadow: 0 0 10px 5px #0ce2d08b;
+        box-shadow: 0 0 10px 5px #0ce2d0d3;
     }
 }
 
@@ -122,4 +162,152 @@
         background-clip: text;
         background-position: 100% 50%;
     }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.co {
+    background: rgba(245, 245, 245, 0.944);
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.pu {
+    background: purple;
+    color: whitesmoke;
+    padding: 2px 9px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.img {
+    position: absolute;
+    object-fit: cover;
+    width: 80px;
+}
+
+.m1 {
+    right: 20px;
+}
+
+.m4 {
+    right: 56%;
+    width: 40vh;
+}
+
+.m3 {
+    top: 9%;
+}
+
+/* 
+.hi {
+    margin-right: 5px;
+} */
+
+.bg {
+    background: url(../image/cyberpunk01.jpg);
+    height: 90vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.cc {
+    position: absolute;
+    bottom: 20px;
+    --w: 450px;
+    rotate: 20deg;
+    transform: translateX(-70px) translateY(140px);
+    width: calc(var(--w)*1.6);
+    height: calc(var(--w)*1.1);
+    background: rgba(255, 0, 0, 0.566);
+    border-radius: 14% 86% 89% 11% / 30% 40% 60% 70%;
+}
+
+.puo:hover {
+    background: purple;
+    color: whitesmoke;
+}
+
+.puo {
+    padding: 2px 9px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.cc1 {
+    color: rgb(245, 245, 245);
+    rotate: -20deg;
+    transform: translate(95px, 105px);
+    width: 310px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+@media (max-width:960px) {
+    .m4 {
+        width: 20vh;
+        right: 40%;
+    }
+}
+
+@media (max-width:495px) {
+    .m4 {
+        right: 15%;
+    }
+
+    .m3 {
+        top: 13%;
+    }
+
+    .m1 {
+        top: 8%;
+        right: 0;
+    }
+
+    .cc1 {
+        font-size: var(--fs);
+
+        h1 {
+            font-size: var(--fs);
+        }
+
+        h4 {
+            font-size: var(--fs);
+        }
+
+    }
+}
+
+.cc1:hover {
+    animation: color 2s infinite linear;
+}
+
+@keyframes color {
+    0% {
+        color: blue;
+    }
+
+    25% {
+        color: rgb(255, 123, 0);
+    }
+
+    50% {
+        color: rgb(153, 0, 255);
+    }
+
+    75% {
+        color: rgb(0, 255, 174);
+    }
+
+    100% {
+        color: rgb(0, 255, 128);
+    }
+
 }

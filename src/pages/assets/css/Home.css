@@ -184,30 +184,6 @@ ul {
     font-weight: 700;
 }
 
-.img {
-    position: absolute;
-    object-fit: cover;
-    width: 80px;
-}
-
-.m1 {
-    right: 20px;
-}
-
-.m4 {
-    right: 56%;
-    width: 40vh;
-}
-
-.m3 {
-    top: 9%;
-}
-
-/* 
-.hi {
-    margin-right: 5px;
-} */
-
 .bg {
     background: url(../image/cyberpunk01.jpg);
     height: 90vh;
@@ -250,26 +226,8 @@ ul {
     font-family: sans-serif;
 }
 
-@media (max-width:960px) {
-    .m4 {
-        width: 20vh;
-        right: 40%;
-    }
-}
 
 @media (max-width:495px) {
-    .m4 {
-        right: 15%;
-    }
-
-    .m3 {
-        top: 13%;
-    }
-
-    .m1 {
-        top: 8%;
-        right: 0;
-    }
 
     .cc1 {
         font-size: var(--fs);
@@ -310,4 +268,20 @@ ul {
         color: rgb(0, 255, 128);
     }
 
+}
+
+.ap {
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
+    --wa: 200px;
+    width: var(--wa);
+    height: var(--wa);
+    background: url(../image/office2.jfif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border-radius: 14% 86% 91% 9% / 46% 46% 54% 54%;
+    border: 2px solid #010110;
+    box-shadow: 15px -7px 10px rgba(255, 0, 0, 0.573);
 }

@@ -1,6 +1,3 @@
-import companyLogo from './assets/image/flower1-removebg-preview.png';
-import company from './assets/image/cand-removebg-preview.png';
-import oLogo from './assets/image/clo-removebg-preview.png';
 const Fromtext = () => {
     return <>
         <div className="container-fluid bg">
@@ -24,10 +21,10 @@ const Fromtext = () => {
                     </div>
                 </div>
                 <div className="col-lg-12">
-                    <img className="img m1" src={companyLogo} alt="flower" />
-                    <img className="img m4" src={oLogo} alt="flower" />
-                    <img className="img m3" src={company} alt="flower" />
 
+
+                </div>
+                <div className="ap">
                 </div>
             </div>
         </div>
